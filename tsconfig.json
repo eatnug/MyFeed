@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "isolatedModules": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "noEmit": true,
+    "baseUrl": "./",
+    "typeRoots": ["node_modules/@types"],
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "build", "webpack.config.js"]
+}
