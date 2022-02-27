@@ -7,20 +7,25 @@
   "author": "eatnug",
   "license": "MIT",
   "scripts": {
-    "dev": "webpack-dev-server --mode development --config webpack.config.js",
+    "start": "webpack-dev-server --mode development --config webpack.config.js",
     "build": "webpack --mode production --config webpack.config.js"
   },
   "dependencies": {
+    "axios": "^0.25.0",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "styled-components": "^5.3.3"
   },
   "devDependencies": {
     "@babel/core": "^7.16.12",
+    "@babel/plugin-transform-runtime": "^7.17.0",
     "@babel/preset-env": "^7.16.11",
     "@babel/preset-react": "^7.16.7",
     "@babel/preset-typescript": "^7.16.7",
+    "@types/chrome": "^0.0.179",
     "@types/react": "^17.0.38",
     "@types/react-dom": "^17.0.11",
+    "@types/styled-components": "^5.1.21",
     "@typescript-eslint/eslint-plugin": "^4.32.0",
     "@typescript-eslint/parser": "^4.32.0",
     "babel-loader": "^8.2.3",
